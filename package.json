@@ -1,0 +1,41 @@
+{
+  "name": "ad-picker",
+  "version": "1.0.0",
+  "description": "基于vue，iOS风格的picker组件，支持三级联动，日期(年.月.日)，时间(时:分)，日期+时间，年，年+月",
+  "main": "index.js",
+  "repository": "https://github.com/113858970/ad-picker",
+  "keywords": [
+    "vue",
+    "picker",
+    "date",
+    "time",
+    "datetime",
+    "vue-picker",
+    "ios-picker"
+  ],
+  "author": "ad",
+  "license": "ISC",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "dependencies": {
+    "vue": "^2.5.16"
+  },
+  "devDependencies": {
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "autoprefixer": "^8.6.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^1.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "less": "^3.7.1",
+    "less-loader": "^4.1.0",
+    "postcss-loader": "^2.1.6",
+    "vue-loader": "^15.2.4",
+    "vue-style-loader": "^4.1.0",
+    "vue-template-compiler": "^2.5.16"
+  }
+}
